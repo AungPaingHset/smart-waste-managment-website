@@ -1,0 +1,86 @@
+
+        .article-card {
+            border-left: 4px solid #d4edda;
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, border-color 0.2s;
+            background-color: #fff;
+            border-radius: 12px;
+        }
+
+        .article-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 28px rgba(40, 167, 69, 0.12);
+            border-left-color: #28a745;
+        }
+
+        .article-body {
+            color: #212529;
+            line-height: 1.65;
+            font-size: 0.95rem;
+        }
+
+        .meta-info {
+            font-size: 0.85rem;
+            color: #6c757d;
+        }
+
+        .meta-info b {
+            color: black;
+        }
+
+        .card-link {
+            text-decoration: none;
+            font-weight: 500;
+            color: #198754;
+            transition: color 0.2s ease-in-out;
+        }
+
+        .card-link:hover {
+            color: #145c32;
+        }
+
+        .badge-comment {
+            background-color: #e9f9ee;
+            color: #198754;
+            font-weight: 500;
+            border: 1px solid #c3e6cb;
+            padding: 0.35rem 0.6rem;
+            border-radius: 0.5rem;
+            font-size: 0.75rem;
+        }
+
+        .add-article-link {
+            display: inline-block;
+            margin-bottom: 1rem;
+            font-weight: 600;
+            color: #28a745;
+            text-decoration: none;
+            transition: all 0.2s ease-in-out;
+        }
+
+        .add-article-link:hover {
+            color: #1e7e34;
+            text-decoration: underline;
+        }
+
+        .section-heading {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #198754;
+            margin-bottom: 1.5rem;
+        }
+
+        .add-article-btn {
+            border-radius: 8px;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .add-article-btn:hover {
+            background-color: #218838;
+            box-shadow: 0 8px 16px rgba(40, 167, 69, 0.2);
+        }
+        
+        #glass-btn {
+            backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.141) !important;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+        }
