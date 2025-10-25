@@ -65,7 +65,7 @@
                             </div>
                         </div>
                     </form>
-<div class="row g-3 mt-3">
+{{-- <div class="row g-3 mt-3">
     <div class="col-12 col-md-4">
         <a href="{{ url('/auth/github') }}" class="btn btn-outline-dark w-100">
             <i class="fab fa-github me-1"></i> GitHub
@@ -81,7 +81,7 @@
             <i class="fab fa-facebook-f me-1"></i> Facebook
         </a>
     </div>
-</div>
+</div> --}}
 
 
             
